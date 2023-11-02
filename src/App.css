@@ -1,0 +1,87 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Styles for the header */
+.App-header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Styles for the main content container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Styles for BookList component */
+.book-list {
+  margin-top: 20px;
+}
+
+/* Styles for AddBook component */
+.add-book-form {
+  margin-top: 20px;
+}
+
+.add-book-button {
+  margin-top: 10px;
+}
+
+/* Styles for EditBook component */
+.edit-book-form {
+  margin-top: 20px;
+}
+
+.edit-book-button {
+  margin-top: 10px;
+}
+
+/* Styles for BookDetails component */
+.book-details {
+  margin-top: 20px;
+}
